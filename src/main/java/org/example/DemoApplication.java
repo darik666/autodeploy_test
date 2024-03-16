@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -17,6 +16,6 @@ public class DemoApplication extends SpringBootServletInitializer {
     }
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, SERGEY!";
+        return "Hello, SERGEY! Is my homework approved?=)";
     }
 }
