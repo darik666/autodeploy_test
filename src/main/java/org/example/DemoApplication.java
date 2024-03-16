@@ -17,6 +17,6 @@ public class DemoApplication extends SpringBootServletInitializer {
     }
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, ASTON SERGEY!";
+        return "Hello, SERGEY!";
     }
 }
